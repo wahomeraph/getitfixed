@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/garage"
+    >
+
+    <TextView
+        android:id="@+id/fixit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET IT FIXED"
+        android:textSize="80dp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fix"
+        android:text="The altimate online service solution"
+        android:layout_below="@+id/fixit"
+        android:textSize="35dp"
+        android:textColor="@color/colorAccent"
+        />
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/mechanic"
+        android:src="@drawable/mechanic"
+        android:layout_below="@id/fix"
+        android:layout_centerInParent="true"
+
+
+        />
+
+</RelativeLayout>

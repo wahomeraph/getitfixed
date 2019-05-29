@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singup"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="sign up"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="username"
+        android:layout_margin="5dp"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="email"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="password"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmpassword"
+        android:hint="confirm password"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber"
+        android:hint="phonenumber"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:hint="location"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="submit"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="already having an account"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_registration"
+        android:text="login"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="5dp"
+        />
+
+
+</LinearLayout>

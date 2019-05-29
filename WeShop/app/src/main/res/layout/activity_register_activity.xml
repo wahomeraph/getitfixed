@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_activity"
+    android:background="@drawable/back3">
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="107dp"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTER SCREEN"
+        android:textAlignment="center"
+        android:textColor="@color/colorTransparent"
+        android:textSize="40dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/reg_screen"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        android:layout_below="@id/reg_screen"
+        android:layout_marginTop="50dp"
+        android:id="@+id/edt_name"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/edt_name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_pass"
+        />
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/edt_pass"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_c_pass"
+        />
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="E_mail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/edt_c_pass"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_email"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_email"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button"
+        android:text="DONE"
+        android:id="@+id/done"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_toLeftOf="@id/spinner"
+        android:textSize="17dp"
+        android:layout_below="@id/edt_email"/>
+
+</RelativeLayout>

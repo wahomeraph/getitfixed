@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M_pesa">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_dark"
+        android:id="@+id/toolbar_id"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FINANCIAL SUMMARISER"
+            android:textSize="30dp"
+            android:textColor="@color/colorWhite"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_id"
+        android:text="TOTAL CASH SEND"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/send_money"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/send_money"
+        android:text="TOTAL CASH WITHDRAWN"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Check_bal"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Check_bal"
+        android:text="TOTAL CASH USED"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/withdraw"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/withdraw"
+        android:text="TOTAL BALANCE LEFT"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buy_airtime"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorGreen"/>
+
+</RelativeLayout>
